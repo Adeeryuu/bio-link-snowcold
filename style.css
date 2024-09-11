@@ -1,0 +1,119 @@
+* {
+    box-sizing: border-box;
+}
+  
+body {
+    background: url('img/backdrop/wps.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #daf3fa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150vh;
+    margin: 0;
+}
+
+.container {
+    border-radius: 15px;
+    width: 750px;
+    text-align: center;
+}
+
+.profile {
+    margin-bottom: 20px;
+}
+
+.profile-picture {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    border: 3px solid #daf3fa;
+    margin-bottom: 10px;
+}
+
+.name {
+    font-family: 'SnowBlue';
+    font-size: 44px;
+    margin: 5px 0;
+    font-weight: 400;
+}
+
+.bio {
+    font-family: 'SnowHut';
+    color: #daf3fa;
+    font-size: 24px;
+    margin-bottom: 15px;
+    font-weight: 800;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.link {
+    display: flex;
+    align-items: center;
+    padding: 12px;
+    background-color: #daf3fa;
+    color: #4489b0;
+    border-radius: 25px;
+    text-decoration: none;
+    font-family: 'SnowHut';
+    font-size: 24px;
+    font-weight: bold;
+    transition: background 0.3s, transform 0.3s;
+}
+
+.link img {
+    margin-right: 10px; 
+    width: 50px; 
+    height: 50px; 
+    border-radius: 10px;
+}
+
+.link-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    text-align: center; 
+    flex: 1; 
+}
+
+.link-content span {
+    display: block; 
+}
+
+.desc {
+    font-family: 'Freeride';
+    font-size: 16px;
+    color: #4489b0;
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+
+@font-face{
+    font-family: 'SnowtopCaps';
+    src: url('font/snowtop_caps/SnowtopCaps.otf');
+}
+@font-face{
+    font-family: 'SnowySeason';
+    src: url('font/snowy_season/Snowy\ Season.ttf');
+}
+@font-face{
+    font-family: 'SnowBlue';
+    src: url('font/snow-blue/SNOW\ BLUE.ttf');
+}
+@font-face{
+    font-family: 'SnowHut';
+    src: url('font/snowhut/SnowHut/SnowHut.ttf');
+}
+@font-face{
+    font-family: 'snowkybrush';
+    src: url('font/snowkybrush/snowkybrush.ttf');
+}
+@font-face{
+    font-family: 'Freeride';
+    src: url('font/freeride/Freeride/Freeride.otf');
+}
